@@ -1,0 +1,48 @@
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexer_nav{
+    line-height: 30px;
+}
+
+.left_margin{
+    margin-left: 20px;
+    color: crimson;
+    display: flex;
+}
+
+.top-img{
+    width: 120px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.button{
+    margin-top: 10px;
+    background-color: crimson;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.margin_right{
+    margin-right: 25px;
+}
+
+.button_nav{
+    margin-top: 30px;
+    background-color: crimson;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-right: 30px;
+}

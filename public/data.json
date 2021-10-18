@@ -1,0 +1,181 @@
+[
+    {
+        "id":"1",
+        "item":"Eggs Benedict",
+        "type":"Breakfast",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Breakfast/breakfast1.png",
+        "price":"12.90",
+        "rating":"5",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"2",
+        "item":"Breakfast Sandwich",
+        "type":"Breakfast",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Breakfast/breakfast2.png",
+        "price":"10.83",
+        "rating":"4.3",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"3",
+        "item":"Baked Chiken",
+        "type":"Breakfast",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Breakfast/breakfast3.png",
+        "price":"10",
+        "rating":"4.8",
+        "availablity":"yes"
+    },
+    
+    {
+        "id":"4",
+        "item":"Bagel And Cream Cheese",
+        "type":"Breakfast",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Breakfast/breakfast4.png",
+        "price":"13",
+        "rating":"5",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"5",
+        "item":"Full Breakfast Fried Egg Tost Brunch",
+        "type":"Breakfast",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Breakfast/breakfast5.png",
+        "price":"11.60",
+        "rating":"4.2",
+        "availablity":"no"
+    },
+    
+    {
+        "id":"6",
+        "item":"Toast Croissant Fried Egg",
+        "type":"Breakfast",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Breakfast/breakfast6.png",
+        "price":"8.0",
+        "rating":"5",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"7",
+        "item":"Baked Chiken",
+        "type":"Dinner",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Dinner/dinner1.png",
+        "price":"10.76",
+        "rating":"4.6",
+        "availablity":"yes"
+    },
+    
+    {
+        "id":"8",
+        "item":"Lemony Salmon Piccata",
+        "type":"Dinner",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Dinner/dinner2.png",
+        "price":"9.23",
+        "rating":"4.9",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"9",
+        "item":"Garlic Butter Baked Salmon",
+        "type":"Dinner",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Dinner/dinner3.png",
+        "price":"7.92",
+        "rating":"5",
+        "availablity":"no"
+    },
+    
+    {
+        "id":"10",
+        "item":"French Fries With Chees",
+        "type":"Dinner",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Dinner/dinner4.png",
+        "price":"12.60",
+        "rating":"4.3",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"11",
+        "item":"Pork Tenderloin With Quinoa Pilaf",
+        "type":"Dinner",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Dinner/dinner5.png",
+        "price":"11.73",
+        "rating":"4.9",
+        "availablity":"yes"
+    },
+    
+    {
+        "id":"12",
+        "item":"Salmon With Grapefruit And Lentil Salad",
+        "type":"Dinner",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/Dinner/dinner6.png",
+        "price":"12.70",
+        "rating":"5",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"13",
+        "item":"Beef Steak",
+        "type":"Lunch",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/lunch/lunch1.png",
+        "price":"11.43",
+        "rating":"5",
+        "availablity":"yes"
+    },
+    
+    {
+        "id":"14",
+        "item":"Honey Soy Glazed Salmon With Peppers",
+        "type":"Lunch",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/lunch/lunch2.png",
+        "price":"15.70",
+        "rating":"4.4",
+        "availablity":"no"
+    },
+
+    {
+        "id":"15",
+        "item":"Tarragon Rubbed Salmon",
+        "type":"Lunch",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/lunch/lunch3.png",
+        "price":"13.13",
+        "rating":"5",
+        "availablity":"yes"
+    },
+    
+    {
+        "id":"16",
+        "item":"Indian Lunch",
+        "type":"Lunch",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/lunch/lunch4.png",
+        "price":"15",
+        "rating":"3.0",
+        "availablity":"yes"
+    },
+
+    {
+        "id":"17",
+        "item":"Fried Chicken Bento",
+        "type":"Lunch",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/lunch/lunch5.png",
+        "price":"12.74",
+        "rating":"5",
+        "availablity":"yes"
+    },
+    
+    {
+        "id":"18",
+        "item":"Healthy Mwal Plan",
+        "type":"Lunch",
+        "img":"https://programmingtask.000webhostapp.com/p-hero/hot-onion-restaurent/lunch/lunch6.png",
+        "price":"9.40",
+        "rating":"4.8",
+        "availablity":"yes"
+    }
+]

@@ -1,0 +1,10 @@
+.menu{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.sub-header{
+    width: 100%;
+    height: 50px;
+}
