@@ -11,9 +11,6 @@ const Services = () => {
             <div className="flexer">
                 {
                     services.map(service => <Link className="detailsLink" to={`/details/${service.id}`}><Service key={service.id} service={service}></Service></Link>)
-
-                    // foods.filter(food => food.type === "Breakfast").map(final => <Link className="detailsLink" to={`/details/${final.id}`}><Foods key={final.id} food={final}></Foods></Link>)
-                    
                 }
             </div>
         </>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams } from 'react-router';
-import useFoods from '../hooks/useFoods';
 import useServices from '../hooks/useServices';
 import './Details.css'
 
