@@ -1,0 +1,15 @@
+.nav_lonk_custome{
+    padding: 20px;
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.log_toggler{
+    display: flex;
+    margin-right: 20px;
+}
+
+.log_toggler h6{
+    margin-right: 5px;
+    margin-top: 5px;
+}

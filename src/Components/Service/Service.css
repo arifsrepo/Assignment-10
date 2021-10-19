@@ -1,17 +1,17 @@
-.container{
-    max-height: 400px;
+.card_container{
+    min-height: 350px;
     width: 350px;
     margin-bottom: 60px;
     border-radius: 15px;
     text-decoration: none;
 }
 
-.container img{
+.card_container img{
     width: 50%;
     height: auto;
 }
 
-.container:hover{
+.card_container:hover{
     transition: 0.75s;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }

@@ -1,0 +1,14 @@
+.login_div{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.login_flexer{
+    display: flex;
+}
+
+.login_form{
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+}
