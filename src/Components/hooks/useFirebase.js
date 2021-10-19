@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import firebaseinit from "../Firebase/firebase.init";
-import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 const useFirebase = () => {
     
@@ -8,7 +8,9 @@ const useFirebase = () => {
     const auth = getAuth();
     const provider = new GoogleAuthProvider();
     const [user, setUser] = useState([]);
-    const [error,setError] = useState([])
+    const [error,setError] = useState([]);
+    const [email, setEmail] = useState([]);
+    const [password, setPassword] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
     
@@ -31,6 +33,32 @@ const useFirebase = () => {
         return signInWithPopup(auth, provider);
     }
 
+    const emailSignin = () => {
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                const user = userCredential.user;
+                setUser(user);
+                setEmail({});
+                setPassword({});
+            })
+            .catch((error) => {
+                setError(error.message);
+            });
+        }
+
+    const createUser = () => {
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                const user = userCredential.user;
+                setUser(user);
+                setEmail({});
+                setPassword({});
+            })
+            .catch((error) => {
+                setError(error.message);
+            });
+    }
+
     const logout = () =>{
         const auth = getAuth();
             signOut(auth).then(() => {
@@ -46,8 +74,12 @@ const useFirebase = () => {
         googleSignin,
         setUser,
         logout,
+        emailSignin,
+        createUser,
         setIsLoading,
         isLoading,
+        setEmail,
+        setPassword,
         error
     }
 }

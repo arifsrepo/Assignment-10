@@ -10,7 +10,7 @@ const Navigationbar = () => {
         <div>
             <Navbar sticky="top" bg="light" variant="light">
                 <Container>
-                <Navbar.Brand>Navbar</Navbar.Brand>
+                <Navbar.Brand>247 HEALTHCARE SERVICE</Navbar.Brand>
                 <Nav className="me-auto">
                 <NavLink className="nav_lonk_custome" to="/home">Home</NavLink>
                 <NavLink className="nav_lonk_custome" to="/about">About</NavLink>
@@ -19,7 +19,7 @@ const Navigationbar = () => {
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
                         {
-                            user.email?<div className="log_toggler"><h6>{user.displayName}</h6><NavLink to='' className="nav_lonk_custome" onClick={logout}>Logout</NavLink></div>:<NavLink className="nav_lonk_custome" to="/login">Login</NavLink>
+                             user.email?<div className="log_toggler"><h6>{user.displayName||user.email}</h6><NavLink to='' className="nav_lonk_custome" onClick={logout}>Logout</NavLink></div> : <NavLink className="nav_lonk_custome" to="/login">Login</NavLink>
                         }
                     </Navbar.Text>
                 </Navbar.Collapse>

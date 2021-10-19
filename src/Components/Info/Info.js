@@ -7,7 +7,7 @@ const Info = () => {
         <br />
         <br />
         <br />
-            <h1>Lorem ipsum dolor sit amet.</h1>
+            <u style={{color:'crimson'}}><h1>Who We Are And Why We Are</h1></u>
             <div className="info_sub">
                 <div>
                     <br />

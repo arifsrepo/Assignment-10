@@ -5,9 +5,10 @@ import useAuth from '../hooks/useAuth';
 import Banner from '../Banner/Banner';
 import Info from '../Info/Info';
 import Services from '../Services/Services';
+import { Accordion } from 'react-bootstrap';
 
 const Home = () => {
-    const {user, logout, isLoading } = useAuth();
+    const {isLoading } = useAuth();
     
     if(isLoading){
         return 'Loading...';
@@ -18,6 +19,7 @@ const Home = () => {
           <Banner></Banner>
           <Info></Info>
           <Services></Services>
+          <Accordion></Accordion>
         </div>
     );
 };
